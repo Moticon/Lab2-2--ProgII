@@ -65,7 +65,7 @@ int main()
 
 		// This is just an example to show you how to make circles
 		// See the 'makeCircle()' function defined above
-		CircleShape c1 = makeCircle(50, 5, 5);
+		CircleShape c1 = makeCircle(60, 5, 5);
 		CircleShape c2 = makeCircle(10, 600, 400);
 
 		// This "draw" method on the window does not display it on the screen. 
@@ -74,21 +74,20 @@ int main()
 		// execute the "window.display()" function. 
 
 		window.draw(c1); // c1 is a circle, draw it into the window
-		window.draw(c2); // c2 is a different circle. 
+		window.draw(c2); // c2 is a different circle.   
 
 		// you will replace the above example code with a loop that 
 		// does the following 20 times:
 		// {
 		//		CircleShape circle = makeCircle(...parameters...);
-		//		window.draw(circle);
+		//		window.draw(circle);  
 		//		...calculate new values for next circle...
 		// }
 		// Note in the above that you can re-use the same circle
 		// instance each time through the loop
-
+		    
 		// end the current frame; put everything on the screen
 		window.display();
 	}
-
 	return 0;
 }
